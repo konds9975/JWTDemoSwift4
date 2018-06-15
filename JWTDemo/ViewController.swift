@@ -5,7 +5,7 @@
 //  Created by Hitendra Bhoir on 15/06/18.
 //  Copyright © 2018 Hitendra Bhoir. All rights reserved.
 //
-
+//pod 'JSONWebToken'
 import UIKit
 import JWT
 
@@ -25,9 +25,6 @@ class ViewController: UIViewController {
             print("After JWT encodeing")
             print("Generated Secreate JWT Token : \(token)")
             //You Can send your generated token to api request
-            
-            
-            
             
             
             //Decodeing Token Process
@@ -71,12 +68,13 @@ class ViewController: UIViewController {
         {
             let claimSet : ClaimSet = try JWT.decode(token, algorithm: .hs256("secreteKey".data(using: .utf8)!))
             return claimSet
-         }
+        }
         catch
         {
             print(error)
         }
         return nil
+        
     }
 
 }
