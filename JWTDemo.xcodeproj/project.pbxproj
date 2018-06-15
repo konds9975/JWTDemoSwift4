@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01ADDCE4BD8884D4FC775C30 /* Pods_JWTDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AAAFABD57E06B15B4A1CFA /* Pods_JWTDemo.framework */; };
+		8AA180209E4DBFE1D92F7935 /* Pods_JWTDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C63047D44466318FDA1CC78 /* Pods_JWTDemoTests.framework */; };
 		DA2810C720D38C1700D02B1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2810C620D38C1700D02B1A /* AppDelegate.swift */; };
 		DA2810C920D38C1700D02B1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2810C820D38C1700D02B1A /* ViewController.swift */; };
 		DA2810CC20D38C1700D02B1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2810CA20D38C1700D02B1A /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		DA2810D420D38C1A00D02B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2810D220D38C1A00D02B1A /* LaunchScreen.storyboard */; };
 		DA2810DF20D38C1A00D02B1A /* JWTDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2810DE20D38C1A00D02B1A /* JWTDemoTests.swift */; };
 		DA2810EA20D38C1A00D02B1A /* JWTDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2810E920D38C1A00D02B1A /* JWTDemoUITests.swift */; };
+		FE8A452EFAB7B8B1CAEA26FF /* Pods_JWTDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70264D507CCCBA1D3479FB2C /* Pods_JWTDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DF0630B6E4E20226A0D3EA7 /* Pods-JWTDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWTDemoTests/Pods-JWTDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C63047D44466318FDA1CC78 /* Pods_JWTDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70264D507CCCBA1D3479FB2C /* Pods_JWTDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AAAFABD57E06B15B4A1CFA /* Pods_JWTDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABF254795A353AC4C3F82AE /* Pods-JWTDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWTDemo/Pods-JWTDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B47938ACFB069985482F020B /* Pods-JWTDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWTDemoUITests/Pods-JWTDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC8EE6AA74617355E7811BB4 /* Pods-JWTDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWTDemoTests/Pods-JWTDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA2810C320D38C1700D02B1A /* JWTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2810C620D38C1700D02B1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA2810C820D38C1700D02B1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		DA2810E520D38C1A00D02B1A /* JWTDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWTDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2810E920D38C1A00D02B1A /* JWTDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTDemoUITests.swift; sourceTree = "<group>"; };
 		DA2810EB20D38C1A00D02B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BAB02D388AC6E5DDA9E898 /* Pods-JWTDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWTDemo/Pods-JWTDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E8204AC26F5B010F1389252D /* Pods-JWTDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWTDemoUITests/Pods-JWTDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01ADDCE4BD8884D4FC775C30 /* Pods_JWTDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA180209E4DBFE1D92F7935 /* Pods_JWTDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8A452EFAB7B8B1CAEA26FF /* Pods_JWTDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E698B4D63C4EBE124E6EB13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AABF254795A353AC4C3F82AE /* Pods-JWTDemo.debug.xcconfig */,
+				E2BAB02D388AC6E5DDA9E898 /* Pods-JWTDemo.release.xcconfig */,
+				CC8EE6AA74617355E7811BB4 /* Pods-JWTDemoTests.debug.xcconfig */,
+				4DF0630B6E4E20226A0D3EA7 /* Pods-JWTDemoTests.release.xcconfig */,
+				E8204AC26F5B010F1389252D /* Pods-JWTDemoUITests.debug.xcconfig */,
+				B47938ACFB069985482F020B /* Pods-JWTDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA2810BA20D38C1700D02B1A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				DA2810DD20D38C1A00D02B1A /* JWTDemoTests */,
 				DA2810E820D38C1A00D02B1A /* JWTDemoUITests */,
 				DA2810C420D38C1700D02B1A /* Products */,
+				5E698B4D63C4EBE124E6EB13 /* Pods */,
+				FC8EB759F23927B5CA9C6FCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = JWTDemoUITests;
 			sourceTree = "<group>";
 		};
+		FC8EB759F23927B5CA9C6FCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8AAAFABD57E06B15B4A1CFA /* Pods_JWTDemo.framework */,
+				5C63047D44466318FDA1CC78 /* Pods_JWTDemoTests.framework */,
+				70264D507CCCBA1D3479FB2C /* Pods_JWTDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA2810EE20D38C1A00D02B1A /* Build configuration list for PBXNativeTarget "JWTDemo" */;
 			buildPhases = (
+				3B3D11DDC3F0B664B0176895 /* [CP] Check Pods Manifest.lock */,
 				DA2810BF20D38C1700D02B1A /* Sources */,
 				DA2810C020D38C1700D02B1A /* Frameworks */,
 				DA2810C120D38C1700D02B1A /* Resources */,
+				EC614A1366587C0835E9F087 /* [CP] Embed Pods Frameworks */,
+				34F8E116ABC6ED5B46E75935 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA2810F120D38C1A00D02B1A /* Build configuration list for PBXNativeTarget "JWTDemoTests" */;
 			buildPhases = (
+				03AC9C380D44E81122B1404E /* [CP] Check Pods Manifest.lock */,
 				DA2810D620D38C1A00D02B1A /* Sources */,
 				DA2810D720D38C1A00D02B1A /* Frameworks */,
 				DA2810D820D38C1A00D02B1A /* Resources */,
+				8B4AC70AE81DDB94FB8FFC7D /* [CP] Embed Pods Frameworks */,
+				06819C85C7EC00FDC1640E62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA2810F420D38C1A00D02B1A /* Build configuration list for PBXNativeTarget "JWTDemoUITests" */;
 			buildPhases = (
+				E1A6CF227BDE3304F7F02371 /* [CP] Check Pods Manifest.lock */,
 				DA2810E120D38C1A00D02B1A /* Sources */,
 				DA2810E220D38C1A00D02B1A /* Frameworks */,
 				DA2810E320D38C1A00D02B1A /* Resources */,
+				C9CFD476906B8BB968429C90 /* [CP] Embed Pods Frameworks */,
+				E86A890363CBB3091C377306 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03AC9C380D44E81122B1404E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWTDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06819C85C7EC00FDC1640E62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWTDemoTests/Pods-JWTDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34F8E116ABC6ED5B46E75935 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWTDemo/Pods-JWTDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B3D11DDC3F0B664B0176895 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWTDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4AC70AE81DDB94FB8FFC7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWTDemoTests/Pods-JWTDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9CFD476906B8BB968429C90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWTDemoUITests/Pods-JWTDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1A6CF227BDE3304F7F02371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWTDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86A890363CBB3091C377306 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWTDemoUITests/Pods-JWTDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC614A1366587C0835E9F087 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JWTDemo/Pods-JWTDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSONWebToken/JWT.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWT.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWTDemo/Pods-JWTDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA2810BF20D38C1700D02B1A /* Sources */ = {
@@ -432,9 +631,11 @@
 		};
 		DA2810EF20D38C1A00D02B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABF254795A353AC4C3F82AE /* Pods-JWTDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMUY72KH99;
 				INFOPLIST_FILE = JWTDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +650,11 @@
 		};
 		DA2810F020D38C1A00D02B1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BAB02D388AC6E5DDA9E898 /* Pods-JWTDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMUY72KH99;
 				INFOPLIST_FILE = JWTDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +669,7 @@
 		};
 		DA2810F220D38C1A00D02B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8EE6AA74617355E7811BB4 /* Pods-JWTDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +690,7 @@
 		};
 		DA2810F320D38C1A00D02B1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF0630B6E4E20226A0D3EA7 /* Pods-JWTDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +711,7 @@
 		};
 		DA2810F520D38C1A00D02B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8204AC26F5B010F1389252D /* Pods-JWTDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +731,7 @@
 		};
 		DA2810F620D38C1A00D02B1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47938ACFB069985482F020B /* Pods-JWTDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

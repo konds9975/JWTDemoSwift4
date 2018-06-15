@@ -1,0 +1,6 @@
+framework module Pods_JWTDemoUITests {
+  umbrella header "Pods-JWTDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
