@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         {
             print("After JWT encodeing")
             print("Generated Secreate JWT Token : \(token)")
+            //You Can send your generated token to api request
+            
+            
+            
+            
             
             //Decodeing Token Process
             if let response = self.decodingDataInJWT(token:token)
